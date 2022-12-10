@@ -1,0 +1,160 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Barlow&family=Lobster&display=swap');
+
+nav{
+	background-color: #4db756;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link {
+	color: white;
+}
+nav a:visited {
+	color: black;
+}
+nav a:hover {
+	color: #8a9193;
+}
+nav a:active {
+	color: #51dfde;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #51dfde;
+}
+a:active {
+	color: #ffffff;
+}
+footer a{
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.fa-snowflake-o{
+	font-size: 4em;
+	padding: 28px;
+	color: #51dfde;
+}
+.fa-tree{
+	font-size: 4em;
+	padding: 28px;
+	color: #4db756;
+}
+blockquote{
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	font-family: 'Barlow', sans-serif;
+}
+img{
+	border-left: 6px solid #4db756;
+	border-radius: 5px;
+	border-style: outset;
+}
+h2 {
+	background-color:white;
+	font-family: 'Barlow', sans-serif;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 5.5em;
+	text-align:center;
+	letter-spacing: 1.5px;
+	padding: 10px;
+	color: white;
+}
+h4{
+	font-family: 'Lobster', cursive;
+	color: white;
+}
+.footer{
+	text-align: center;
+	max-width: 1000px;
+	margin:0 auto;
+	color: white;
+}
+footer{
+	text-align: center;
+	border-top: 2px solid black;
+	padding: 10px;
+	background-color: #4db756;
+}
+footer.fa{
+	size: 5em;
+}
+body {
+	margin: 0;
+	background-color:#8a9193;
+	font-size: 1.1em;
+}
+
+/*CSS without a Media Query--applies to all sizes unless overridden*/
+
+/*CSS Adjustments for Tablets*/
+@media only screen and (max-width: 1024px)
+{
+	h1{
+		font-size: 4.5em;
+	}
+}
+/*CSS Adjustments for Smartphones*/
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 3em;
+	}
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: magnifier;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+

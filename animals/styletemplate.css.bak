@@ -1,0 +1,98 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Barrio&family=Roboto+Mono:wght@500&display=swap');
+
+nav{
+	background-color: darkred;
+	border-top: 2px solid darkred;
+	border-bottom: 2px solid darkred;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link {
+	color: white;
+}
+nav a:visited {
+	color: lightgrey;
+}
+nav a:hover {
+	color: black;
+}
+nav a:active {
+	color: yellow;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: grey;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: orange;
+}
+footer a{
+	text-decoration: none;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+h2 {
+	color:red;
+	background-color:white;
+	font-family: 'Barrio', cursive;
+}
+h1{
+	text-align:center;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+footer.fa{
+	size: 5em;
+}
+body {
+	font-family:'Roboto Mono', sans-serif;
+	margin: 0;
+}
+
+/*CSS without a Media Query--applies to all sizes unless overridden*/
+h1{
+	font-size: 4em;
+}
+/*CSS Adjustments for Tablets*/
+@media only screen and (max-width: 1024px)
+{
+	h1{
+		font-size: 1.8em;
+	}
+}
+/*CSS Adjustments for Smartphones*/
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+
+
+
+
+
+

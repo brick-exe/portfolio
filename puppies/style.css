@@ -1,0 +1,146 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+nav{
+	background-color:#3bdaa7;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link {
+	color: black;
+}
+nav a:visited {
+	color:white;
+}
+nav a:hover {
+	color: #077984;
+}
+nav a:active {
+	color: #12c0d2;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: #d8eff4;
+}
+a:hover {
+	color: #077984;
+}
+a:active {
+	color: #12c0d2;
+}
+.vote a:visited{
+	color:#aabcbf
+}
+footer a{
+	text-decoration: none;
+}
+body{
+	background-color:#d8eff4;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	background-color:#d8eff4;
+}
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+	border-bottom: 3px solid #3bdaa7;
+	border-right: 3px solid #3bdaa7;
+	border-radius: 10px;
+}
+img{
+	display:block;
+	margin:0 auto;
+	border-bottom: 3px solid #3bdaa7;
+	border-radius: 10px;
+}
+blockquote{
+	text-align:center;
+	margin: 25px;
+}
+.col-sm-4 h3{
+	text-align:center;
+	padding: 15px;
+}
+.icons .fa{
+	font-size: 5em;
+	text-align:center;
+	padding: 40px 0;
+	color:#33FFBD;
+	max-width: 1200px;
+	margin:0 auto;
+}
+.icons{
+	text-align:center;
+	padding: 10px 0;
+	color:#33FFBD;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+h3 {
+	font-weight: bold;
+}
+h1{
+	text-align:center;
+	font-weight: bold;
+	padding: 10px;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-color:#aabcbf;
+}
+
+body {
+	font-family:'Roboto Mono', sans-serif;
+	margin: 0;
+}
+
+/*CSS without a Media Query--applies to all sizes unless overridden*/
+h1{
+	font-size: 4em;
+}
+/*CSS Adjustments for Tablets*/
+@media only screen and (max-width: 1024px)
+{
+	h1{
+		font-size: 1.8em;
+	}
+}
+/*CSS Adjustments for Smartphones*/
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+
+
+
+
+
+
